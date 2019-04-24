@@ -1,2 +1,7 @@
 1.vuecli创建新项目
   vue create cookhouse ->> vue add router ->> vue add vuex 
+  安装vant组件库：npm install vant --save  
+                 npm i babel-plugin-import -D
+                 babel.config.js配置
+  sass-loader的使用：npm install sass-loader node-sass --save-dev
+  
