@@ -80,10 +80,10 @@ export default {
 //                     }
 //                 ],
 //                 options:[{
-//                     autoplay:true,
-//                     volume:0.6,
-//                     poster:'http://covteam.u.qiniudn.com/poster.png',
-//                     }]
+//                autoplay:true,
+//                volume:0.6,
+//                poster:'http://covteam.u.qiniudn.com/poster.png',
+//               }]
 //             }
         }
     },
