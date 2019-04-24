@@ -120,6 +120,7 @@ export default {
      text-align: center;
      font-size: 2rem;
      color: darkgoldenrod;
+     margin: auto;
    }
    &-img{
      width: 100%;
@@ -152,7 +153,7 @@ export default {
      }
      &-ul{
        margin-top: 10px;
-       margin-bottom: 50px;
+       margin-bottom: 55px;
        display: flex;
        flex-wrap: wrap;
        justify-content: space-around;
