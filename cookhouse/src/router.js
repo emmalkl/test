@@ -5,6 +5,7 @@ import Profile from './views/Profile.vue'
 import Detail from './views/Detail.vue'
 import Cart from './views/Cart.vue'
 import Talk from './views/Talk.vue'
+import Hot from './views/Hot.vue'
 
 Vue.use(Router)
 
@@ -42,5 +43,10 @@ export default new Router({
       name: 'talk',
       component: Talk
     },
+    {
+      path:'/hot',
+      name:'hot',
+      component:Hot
+    }
   ]
 })
