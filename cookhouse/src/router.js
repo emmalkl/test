@@ -41,7 +41,11 @@ export default new Router({
     {
       path:'/hot',
       name:'hot',
+<<<<<<< HEAD
       component:Hot,
+=======
+      component:Hot
+>>>>>>> c1e944dc2f847c4d69a56720fb696acd52bf2190
     }
   ]
 })
