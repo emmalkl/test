@@ -5,8 +5,8 @@ import store from './store'
 
 Vue.config.productionTip = false;
 
-import { Search,Icon,Button,Lazyload,Swipe, SwipeItem  } from 'vant';
-Vue.use(Search).use( Icon ).use(Button).use(Lazyload).use(Swipe).use(SwipeItem);
+import { Lazyload,Swipe, SwipeItem,Search,Icon,Button,Tabbar, TabbarItem,Cell, CellGroup,Tab, Tabs,Tag, NavBar} from 'vant';
+Vue.use(Tabbar).use(TabbarItem).use( Icon ).use(Button).use(Cell).use(CellGroup).use(Tab).use(Tabs).use(Tag).use( NavBar).use(Search).use(Lazyload).use(Swipe).use(SwipeItem);
 
 new Vue({
   router,
