@@ -4,14 +4,15 @@
       <van-nav-bar
       title="课堂"
       left-text="返回"
-      left-arrow/>
+      left-arrow
+      @click-left="onClickLeft"/>
     </div>
 
     <div class="content">
       <van-tabs v-model="active">
         <van-tab title="全部">
           <div class="recommend">
-            <ul class="list">
+            <ul>
               <li class="recommend-item" v-for="(item,index) in recommendItem" :key="index">
                 <img :src="item.img" alt="">
                 <p>{{item.name}}</p>
@@ -37,6 +38,7 @@ export default {
   
   data() {
     return {
+      active:0,
       recommendItem:[
        {
           name: " 5种口味最容易挤的酥脆曲奇",
@@ -104,7 +106,12 @@ export default {
         },
       ]
     }
-  }
+  },
+   methods: {
+    onClickLeft() {
+      Toast('返回');
+    }
+   }
 }
 </script>
 
@@ -114,21 +121,28 @@ export default {
      margin-bottom:0.3rem;
    }
  }
+
  .recommend{
+  text-align: left;
   margin: 0.2rem 0.1rem;
   background-color: #fff;
   margin-bottom: 1rem;
+  font-size: 14px;
   ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   &-item{
-    flex-basis: 45%;
+    flex-basis: 35%;
+    margin-bottom: 0.5rem;
+    p{
+      margin:0.2rem 0;
+    }
   }
   img{
-    width: 2.8rem;
-    height: 3.5rem;
+    width: 8.5rem;
+    height: 10rem;
   }
   &-like{
     float: right;

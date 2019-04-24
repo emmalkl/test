@@ -1,5 +1,11 @@
 <template>
     <div class="container">
+        <div class="header">
+      <van-nav-bar
+      title="热门"
+      left-text="返回"
+      left-arrow/>
+    </div>
         <van-list class="container-list" v-model="loading" :finished="finished" finished-text="没有更多了" :error.sync='error' error-text='请求失败，请重新将加载' @load="onLoad">
             <van-cell v-for="(item,index) in List" :key="index" class="container-cell">
                 <img :src="item.src" alt="" class="container-cell-img">
