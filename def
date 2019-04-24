@@ -3,5 +3,6 @@
   安装vant组件库：npm install vant --save  
                  npm i babel-plugin-import -D
                  babel.config.js配置
+                 action:npm install
   sass-loader的使用：npm install sass-loader node-sass --save-dev
-  
+  使用iconfont：下载至本地
