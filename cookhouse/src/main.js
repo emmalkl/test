@@ -5,8 +5,10 @@ import store from './store'
 
 Vue.config.productionTip = false;
 
-import { Lazyload,Swipe, SwipeItem,Search,Icon,Button,Tabbar, TabbarItem,Cell, CellGroup,Tab, Tabs,Tag, NavBar} from 'vant';
-Vue.use(Tabbar).use(TabbarItem).use( Icon ).use(Button).use(Cell).use(CellGroup).use(Tab).use(Tabs).use(Tag).use( NavBar).use(Search).use(Lazyload).use(Swipe).use(SwipeItem);
+import { Lazyload,Swipe, SwipeItem,Search,Icon,Button,Tabbar, TabbarItem,Cell, CellGroup,Tab, Tabs,Tag, NavBar,GoodsAction,
+  GoodsActionBigBtn,
+  GoodsActionMiniBtn} from 'vant';
+Vue.use(GoodsActionMiniBtn).use(GoodsActionBigBtn).use(GoodsAction).use(Tabbar).use(TabbarItem).use( Icon ).use(Button).use(Cell).use(CellGroup).use(Tab).use(Tabs).use(Tag).use( NavBar).use(Search).use(Lazyload).use(Swipe).use(SwipeItem);
 
 new Vue({
   router,

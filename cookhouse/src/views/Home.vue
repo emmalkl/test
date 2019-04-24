@@ -15,7 +15,7 @@
     <!-- iconfont -->
     <div class="home-icon">
       <ul class="home-icon-ul">
-        <li>
+        <li @click="go()">
           <i class="iconfont icon-shoutao"></i>
           <span>烘焙入门</span>
         </li>
@@ -104,6 +104,11 @@ export default {
           price:38
         }
       ]
+    }
+  },
+  methods:{
+    go(){
+      this.$router.push({path:'/detail'})
     }
   }
 }
