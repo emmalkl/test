@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Profile from './views/Profile.vue'
 import Detail from './views/Detail.vue'
 import Cart from './views/Cart.vue'
+import Talk from './views/Talk.vue'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/cart',
       name: 'cart',
       component: Cart
+    },
+    {
+      path: '/talk',
+      name: 'talk',
+      component: Talk
     },
   ]
 })
