@@ -106,9 +106,8 @@ export default {
    height: 100%;
    overflow: scroll;
     &-bar{
-        z-index: 100!important;
-        position: fixed;
-        bottom: 0;
+        z-index: 100;
+        margin-bottom: 50px;
     }
     &-add{
         float: right;
