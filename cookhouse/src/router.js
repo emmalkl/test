@@ -8,7 +8,7 @@ import Talk from './views/Talk.vue'
 import Hot from './views/Hot.vue'
 
 Vue.use(Router)
-
+ 
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
@@ -40,8 +40,8 @@ export default new Router({
     },
     {
       path:'/hot',
-      name:'hot',
-      component:Hot
+      name:hot,
+      component:Hot,
     }
   ]
 })
