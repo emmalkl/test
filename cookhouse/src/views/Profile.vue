@@ -6,7 +6,7 @@
       </van-nav-bar>
     </div>
     <div class="content">
-      <van-cell-group title="分组1" class="content-group">
+      <van-cell-group  class="content-group">
         <van-cell  icon="manager" is-link size='large'>
           <template slot="title">
             <span class="custom-text">个人资料</span>
@@ -21,7 +21,7 @@
         </van-cell>
       </van-cell-group>
 
-      <van-cell-group title="分组2" class="content-group">
+      <van-cell-group class="content-group">
         <van-cell  is-link size='large'>
           <template slot="title">
             <van-icon name='clock-o'></van-icon>
