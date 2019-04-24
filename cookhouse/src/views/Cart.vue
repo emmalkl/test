@@ -23,9 +23,10 @@
        <!-- video -->
 
        <p style="color:#ff976a">vip专享视频展示</p>
-       <video src="movie.ogg" controls="controls" class="cart-video">
+       <video src="" controls="controls" class="cart-video">
         
        </video>
+       <!-- <my-video :sources="video.sources" :options="video.options" class="cart-video"/> -->
       <!-- 下导航 -->
       <van-goods-action class="cart-bar">
         <van-goods-action-mini-btn
@@ -50,6 +51,7 @@
     </div>
 </template>
 <script>
+// import myVideo from 'vue-video'
 export default {
     data(){
         return{
@@ -69,18 +71,40 @@ export default {
                 '全蛋液	15克',
                 '奶粉	8克',
                 '低筋面粉	65克'
-            ]
+            ],
+//             video:{
+//                 sources:[
+//                     {
+//                         src:'../../../static/video/1.mp4',
+//                         type:'video/mp4'
+//                     }
+//                 ],
+//                 options:[{
+//                     autoplay:true,
+//                     volume:0.6,
+//                     poster:'http://covteam.u.qiniudn.com/poster.png'
+//                     }]
+//             }
         }
     },
     methods:{
         onClickLeft() {
          this.$router.go(-1);
       },
-    }
+    },
+    //  components:{
+    //         myVideo
+    // }
 }
 </script>
 <style lang="scss" scoped>
 .cart{
+    position: fixed;
+   top: 0;
+   left:0;
+   right:0;
+   height: 100%;
+   overflow: scroll;
     &-bar{
         z-index: 1000;
     }
