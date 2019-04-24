@@ -40,8 +40,8 @@ export default new Router({
     },
     {
       path:'/hot',
-      name:hot,
-      component:Hot,
+      name:'hot',
+      component:Hot
     }
   ]
 })
