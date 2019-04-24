@@ -17,35 +17,35 @@
       <ul class="home-icon-ul">
         <li @click="go()">
           <i class="iconfont icon-shoutao"></i>
-          <span>烘焙入门</span>
+          <span>家乡味道</span>
         </li>
         <li>
           <i class="iconfont icon-foodandappliances-2" style="color:hotpink"></i>
-          <span>甜点</span>
+          <span>西点</span>
         </li>
         <li>
           <i class="iconfont icon-noodles" ></i>
-          <span>面食</span>
+          <span>入门食谱</span>
         </li>
         <li>
           <i class="iconfont icon-cai" style="color:rgb(28, 182, 131)"></i>
-          <span>家常菜</span>
+          <span>火锅烧烤</span>
         </li>
         <li>
           <i class="iconfont icon-dianxin" style="color:hotpink"></i>
-          <span>中式点心</span>
+          <span>萌娃甄选</span>
         </li>
         <li>
           <i class="iconfont icon-Food-Icons-4"></i>
-          <span>面包</span>
+          <span>养生食疗</span>
         </li>
         <li>
           <i class="iconfont icon-cupcake" style="color:hotpink"></i>
-          <span>蛋糕</span>
+          <span>厨艺进阶</span>
         </li>
         <li>
           <i class="iconfont icon-foodandappliances-1"></i>
-          <span>健康减脂</span>
+          <span>零脂轻食</span>
         </li>
       </ul>  
     </div>
