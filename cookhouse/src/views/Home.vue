@@ -92,6 +92,16 @@ export default {
           imgsrc:'http://i2.chuimg.com/2da31c80bb5c466f96863e49409cd74d_1242w_1207h.jpg?imageView2/1/w/235/h/138/interlace/1/q/90',
           name:'紫薯蛋糕卷',
           price:12
+        },
+        {
+          imgsrc:'http://i2.chuimg.com/daf670cc73a911e6aae8cd5a4774d612.jpg?imageView2/2/w/660/interlace/1/q/90',
+          name:'安东鸡',
+          price:48
+        },
+        {
+          imgsrc:'http://i2.chuimg.com/482e09527e1c4e0b901c8e27e57eaa2f_1080w_864h.jpg?imageView2/1/w/235/h/138/interlace/1/q/90',
+          name:'糖醋里脊',
+          price:38
         }
       ]
     }
@@ -104,6 +114,8 @@ export default {
    top: 0;
    left:0;
    right:0;
+   height: 100%;
+   overflow: scroll;
    &-title{
      text-align: center;
      font-size: 2rem;
@@ -140,14 +152,22 @@ export default {
      }
      &-ul{
        margin-top: 10px;
+       margin-bottom: 50px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
        &-li{
-         float: left;
-         width: 50%;
-         height: 250px;
+        flex-basis: 47%;
+        margin-bottom: 5px;
+        height: 100%;
+        text-align: center;
        }
        &-li>img{
          width: 100%;
-         height: 180px;
+         height: 100px;
+       }
+       &-li>span{
+         display: block;
        }
      }
    }
