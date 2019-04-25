@@ -39,27 +39,27 @@
                 error:false,
                 List:[
                     {
-                        src:require('@/assets/img/1.jpeg'),
+                        src:'https://wx3.sinaimg.cn/mw690/0066fNULly1g2f1ttavi5j30qo0qowgl.jpg',
                         name: '明夕何夕',
                         video:'http://www.iqiyi.com/v_19rrgxkgfo.html',
                     },
                     {
-                        src:require('@/assets/img/2.jpeg'),
+                        src:'https://wx1.sinaimg.cn/mw690/0066fNULly1g2f1ttj3ytj30qo0qomyw.jpg',
                         name:'泡.沫.',
                         video:'http://www.iqiyi.com/w_19s8ey0n01.html',
                     },
                     {
-                        src:require('@/assets/img/3.jpeg'),
+                        src:'https://wx4.sinaimg.cn/mw690/0066fNULly1g2f1tubecoj30qo0qnac6.jpg',
                         name:'我有一瞬间会发光',
                         video:'http://www.iqiyi.com/w_19s5v4w0j9.html',
                     },
                     {
-                        src:require('@/assets/img/4.jpeg'),
+                        src:'https://wx2.sinaimg.cn/mw690/0066fNULly1g2f1ttq0srj30qo0qo74r.jpg',
                         name:'申小宝儿 ',
                         video:'http://www.iqiyi.com/v_19rrifwhox.html',
                     },
                     {
-                        src:require('@/assets/img/5.jpeg'),
+                        src:'https://wx3.sinaimg.cn/mw690/0066fNULly1g2f1ttw6xfj30xc0xcabf.jpg',
                         name:'亲爱的果宝宝 ',
                         video:'http://www.iqiyi.com/v_19rrf9on7k.html',
                     },
