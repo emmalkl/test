@@ -43,7 +43,6 @@ export default {
           img:
             require('@/assets/img/1.jpg'),
           price: "254",
-          company: "  曲阜市润众机械制造有限",
           city: "曲阜市"
         },
         {
@@ -51,7 +50,6 @@ export default {
           img:
             require('@/assets/img/2.jpg'),
           price: "212",
-          company: "  曲阜市润众机械制造有限",
           city: "曲阜市"
         },
         {

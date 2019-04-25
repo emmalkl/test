@@ -33,27 +33,27 @@
                 error:false,
                 List:[
                     {
-                        src:require('@/assets/img/1.jpeg'),
+                        src:'http://i1.chuimg.com/47e74fcfba274f698d52d89def115228_534w_534h.jpg@2o_50sh_1pr_1l_60w_60h_1c_1e_90q_1wh',
                         name: '明夕何夕',
                         video:'http://www.iqiyi.com/v_19rrgxkgfo.html',
                     },
                     {
-                        src:require('@/assets/img/2.jpeg'),
+                        src:'http://i2.chuimg.com/7a1b49395ed34b70a5afbcc985abec79_1080w_1080h.jpg?imageView2/1/w/60/h/60/interlace/1/q/90',
                         name:'泡.沫.',
                         video:'http://www.iqiyi.com/w_19s8ey0n01.html',
                     },
                     {
-                        src:require('@/assets/img/3.jpeg'),
+                        src:'http://i1.chuimg.com/d27ba836d2164328aee118966f151278_1080w_1080h.jpg@2o_50sh_1pr_1l_60w_60h_1c_1e_90q_1wh',
                         name:'我有一瞬间会发光',
                         video:'http://www.iqiyi.com/w_19s5v4w0j9.html',
                     },
                     {
-                        src:require('@/assets/img/4.jpeg'),
+                        src:'http://i2.chuimg.com/bf8100ffbe3341938c3704b5c1018602_160w_160h.jpg?imageView2/1/w/60/h/60/interlace/1/q/90',
                         name:'申小宝儿 ',
                         video:'http://www.iqiyi.com/v_19rrifwhox.html',
                     },
                     {
-                        src:require('@/assets/img/5.jpeg'),
+                        src:'http://i2.chuimg.com/a7287dc4faea4a999560637f049642ac_1080w_1080h.jpg?imageView2/1/w/60/h/60/interlace/1/q/90',
                         name:'亲爱的果宝宝 ',
                         video:'http://www.iqiyi.com/v_19rrf9on7k.html',
                     },
