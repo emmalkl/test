@@ -11,7 +11,7 @@
       <van-tabs v-model="active">
         <van-tab title="全部">
           <div class="recommend">
-            <ul class="list">
+            <ul>
               <li class="recommend-item" v-for="(item,index) in recommendItem" :key="index">
                 <img :src="item.img" alt="">
                 <p>{{item.name}}</p>
@@ -37,25 +37,25 @@ export default {
   
   data() {
     return {
+      active:0,
       recommendItem:[
        {
           name: " 5种口味最容易挤的酥脆曲奇",
           img:
-            require('@/assets/img/1.jpg'),
+            'https://wx2.sinaimg.cn/mw690/0066fNULly1g2f1mxt02nj30u0190q5a.jpg',
           price: "254",
           city: "曲阜市"
         },
         {
           name: " 5种健康美味的高颜值果昔碗",
-          img:
-            require('@/assets/img/2.jpg'),
+          img:'https://wx3.sinaimg.cn/mw690/0066fNULly1g2f1my2lexj30u0190qax.jpg',
           price: "212",
           city: "曲阜市"
         },
         {
           name: " 一次掌握4种口味网红曲奇课程",
           img:
-            require('@/assets/img/3.jpg'),
+            'https://wx4.sinaimg.cn/mw690/0066fNULly1g2f1myfq7aj30u0190ade.jpg',
           price: "187",
           company: "  曲阜市润众机械制造有限",
           city: "曲阜市"
@@ -63,7 +63,7 @@ export default {
         {
           name: " 八款无需冰淇凌机超顺滑无冰渣质感冰淇凌",
           img:
-            require('@/assets/img/4.jpg'),
+            'https://wx2.sinaimg.cn/mw690/0066fNULly1g2f1mys6okj30u0190q7z.jpg',
           price: "155",
           company: "  山东曲阜宏燊工贸有限公",
           city: "曲阜市"
@@ -71,7 +71,7 @@ export default {
         {
           name: "Q皮冰淇凌奶油流心雪媚娘",
           img:
-            require('@/assets/img/5.jpg'),
+            'https://wx3.sinaimg.cn/mw690/0066fNULly1g2f1mz0j9uj30u019075o.jpg',
           price: "102",
           company: "  曲阜市润众机械制造有限",
           city: "曲阜市"
@@ -117,21 +117,28 @@ export default {
      margin-bottom:0.3rem;
    }
  }
+
  .recommend{
+  text-align: left;
   margin: 0.2rem 0.1rem;
   background-color: #fff;
   margin-bottom: 1rem;
+  font-size: 14px;
   ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   &-item{
-    flex-basis: 45%;
+    flex-basis: 35%;
+    margin-bottom: 0.5rem;
+    p{
+      margin:0.2rem 0;
+    }
   }
   img{
-    width: 2.8rem;
-    height: 3.5rem;
+    width: 8.5rem;
+    height: 10rem;
   }
   &-like{
     float: right;

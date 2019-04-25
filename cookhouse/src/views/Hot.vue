@@ -1,5 +1,11 @@
 <template>
     <div class="container">
+        <div class="header">
+      <van-nav-bar
+      title="热门"
+      left-text="返回"
+      left-arrow/>
+    </div>
         <van-list class="container-list" v-model="loading" :finished="finished" finished-text="没有更多了" :error.sync='error' error-text='请求失败，请重新将加载' @load="onLoad">
             <van-cell v-for="(item,index) in List" :key="index" class="container-cell">
                 <img :src="item.src" alt="" class="container-cell-img">
@@ -33,27 +39,27 @@
                 error:false,
                 List:[
                     {
-                        src:'http://i1.chuimg.com/47e74fcfba274f698d52d89def115228_534w_534h.jpg@2o_50sh_1pr_1l_60w_60h_1c_1e_90q_1wh',
+                        src:'https://wx3.sinaimg.cn/mw690/0066fNULly1g2f1ttavi5j30qo0qowgl.jpg',
                         name: '明夕何夕',
                         video:'http://www.iqiyi.com/v_19rrgxkgfo.html',
                     },
                     {
-                        src:'http://i2.chuimg.com/7a1b49395ed34b70a5afbcc985abec79_1080w_1080h.jpg?imageView2/1/w/60/h/60/interlace/1/q/90',
+                        src:'https://wx1.sinaimg.cn/mw690/0066fNULly1g2f1ttj3ytj30qo0qomyw.jpg',
                         name:'泡.沫.',
                         video:'http://www.iqiyi.com/w_19s8ey0n01.html',
                     },
                     {
-                        src:'http://i1.chuimg.com/d27ba836d2164328aee118966f151278_1080w_1080h.jpg@2o_50sh_1pr_1l_60w_60h_1c_1e_90q_1wh',
+                        src:'https://wx4.sinaimg.cn/mw690/0066fNULly1g2f1tubecoj30qo0qnac6.jpg',
                         name:'我有一瞬间会发光',
                         video:'http://www.iqiyi.com/w_19s5v4w0j9.html',
                     },
                     {
-                        src:'http://i2.chuimg.com/bf8100ffbe3341938c3704b5c1018602_160w_160h.jpg?imageView2/1/w/60/h/60/interlace/1/q/90',
+                        src:'https://wx2.sinaimg.cn/mw690/0066fNULly1g2f1ttq0srj30qo0qo74r.jpg',
                         name:'申小宝儿 ',
                         video:'http://www.iqiyi.com/v_19rrifwhox.html',
                     },
                     {
-                        src:'http://i2.chuimg.com/a7287dc4faea4a999560637f049642ac_1080w_1080h.jpg?imageView2/1/w/60/h/60/interlace/1/q/90',
+                        src:'https://wx3.sinaimg.cn/mw690/0066fNULly1g2f1ttw6xfj30xc0xcabf.jpg',
                         name:'亲爱的果宝宝 ',
                         video:'http://www.iqiyi.com/v_19rrf9on7k.html',
                     },
