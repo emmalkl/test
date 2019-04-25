@@ -17,11 +17,11 @@
       <ul class="home-icon-ul">
         <li @click="go()">
           <i class="iconfont icon-shoutao"></i>
-          <span>家乡味道</span>
+          <span>西点</span>
         </li>
         <li>
           <i class="iconfont icon-foodandappliances-2" style="color:hotpink"></i>
-          <span>西点</span>
+          <span>家乡味道</span>
         </li>
         <li>
           <i class="iconfont icon-noodles" ></i>
@@ -54,7 +54,7 @@
       <p class="home-hot-title">热门产品</p>
       <ul class="home-hot-ul">
         <li v-for="(item,index) in products" :key="index" class="home-hot-ul-li">
-           <img :src="item.imgsrc" alt="">
+           <img :src="item.imgsrc" alt="" @click="change()">
            <span>{{item.name}}</span>
            <span>￥{{item.price}}</span>
         </li>
@@ -109,6 +109,9 @@ export default {
   methods:{
     go(){
       this.$router.push({path:'/detail'})
+    },
+    change(){
+      this.$router.push({path:'/cart'})
     }
   }
 }
