@@ -71,7 +71,7 @@ export default {
                 '全蛋液	15克',
                 '奶粉	8克',
                 '低筋面粉	65克'
-            ],
+            ]
 //             video:{
 //                 sources:[
 //                     {
@@ -80,10 +80,10 @@ export default {
 //                     }
 //                 ],
 //                 options:[{
-//                     autoplay:true,
-//                     volume:0.6,
-//                     poster:'http://covteam.u.qiniudn.com/poster.png'
-//                     }]
+//                autoplay:true,
+//                volume:0.6,
+//                poster:'http://covteam.u.qiniudn.com/poster.png',
+//               }]
 //             }
         }
     },
@@ -91,7 +91,7 @@ export default {
         onClickLeft() {
          this.$router.go(-1);
       },
-    },
+    }
     //  components:{
     //         myVideo
     // }
@@ -106,7 +106,8 @@ export default {
    height: 100%;
    overflow: scroll;
     &-bar{
-        z-index: 1000;
+        z-index: 100;
+        margin-bottom: 50px;
     }
     &-add{
         float: right;

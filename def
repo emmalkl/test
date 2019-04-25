@@ -8,4 +8,6 @@
   使用iconfont：下载至本地
   vue插入视频:npm i vue-video --save-dev
   vuecli插入图片的三种方法：
-  
+  van-goods-action与van-tabbar  下导航冲突！！未解决
+  压缩插件：compression-webpack-plugin
+           npm install --save-dev compression-webpack-plugin

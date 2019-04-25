@@ -4,8 +4,7 @@
       <van-nav-bar
       title="课堂"
       left-text="返回"
-      left-arrow
-      @click-left="onClickLeft"/>
+      left-arrow @click-left="onClickLeft"/>
     </div>
 
     <div class="content">
@@ -107,11 +106,11 @@ export default {
       ]
     }
   },
-   methods: {
-    onClickLeft() {
-      Toast('返回');
+  methods:{
+        onClickLeft() {
+         this.$router.go(-1);
+      },
     }
-   }
 }
 </script>
 

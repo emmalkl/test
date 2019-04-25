@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <van-nav-bar title="我的" left-text="返回" left-arrow>
+      <van-nav-bar title="我的" left-text="返回" left-arrow @click-left="onClickLeft">
         <van-icon name='setting-o' slot='right'></van-icon>
       </van-nav-bar>
     </div>
@@ -74,7 +74,12 @@ export default {
     return {
       active: 0
     }
-  }
+  },
+  methods:{
+        onClickLeft() {
+         this.$router.go(-1);
+      },
+    }
 
 }
 </script>
